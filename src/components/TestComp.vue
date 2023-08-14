@@ -1,19 +1,20 @@
 <template>
-
-<v-container class="fill-height">
-    <v-responsive class="align-center text-start">
-      <div>
-        <h1>Itens da API do Strapi:</h1>
-        <ul>
-          <li v-for="product in api.data" :key="product.id">
-            <p>Nome do Produto: {{ product.attributes.product_name }}</p>
-            <p>Descrição do Produto: {{ product.attributes.product_desc }}</p>
-            {{ product.id }}
-          </li>
-        </ul>
-      </div>
-    </v-responsive>
-  </v-container>
+  <div class="bg-grey-darken-4 fill-height">
+    <v-container class="fill-height">
+      <v-responsive class="align-center text-start">
+        <div>
+          <h1>Itens da API do Strapi:</h1>
+          <ul>
+            <li v-for="product in api.data" :key="product.id">
+              <p>Nome do Produto: {{ product.attributes.product_name }}</p>
+              <p>Descrição do Produto: {{ product.attributes.product_desc }}</p>
+              {{ product.id }}
+            </li>
+          </ul>
+        </div>
+      </v-responsive>
+    </v-container>
+  </div>
 </template>
 
 <script setup>

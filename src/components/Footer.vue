@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-grey-darken-4">
+  <div>
     <v-container>
       <v-responsive class="align-center text-start">
         <h1>Footer</h1>

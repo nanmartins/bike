@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-grey-darken-4">
+  <!-- <div class="bg-grey-darken-4"> -->
     <v-container>
       <v-responsive class="align-center text-start">
         <div class="d-flex flex-row align-center justify-space-between">
@@ -8,5 +8,5 @@
         </div>
       </v-responsive>
     </v-container>
-  </div>
+  <!-- </div> -->
 </template>
