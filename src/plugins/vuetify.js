@@ -14,21 +14,23 @@ import { createVuetify } from 'vuetify'
 // https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides
 export default createVuetify({
   theme: {
-    defaultTheme: 'light',
     themes: {
-      light: {
-        colors: {
-          primary: '#70C041',
-          secondary: '#B829B1',
-        },
-      },
       dark: {
         colors: {
-          primary: '#70C041',
+          primary: '#70C040',
           secondary: '#B829B1',
           highlight: '#50C6C5',
+          nav: '#121212'
         }
-      }
+      },
+      light: {
+        colors: {
+          primary: '#70C040',
+          secondary: '#B829B1',
+          highlight: '#50C6C5',
+          nav: '#FFFFFF'
+        },
+      },
     },
   },
 })
